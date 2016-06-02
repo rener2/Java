@@ -1,0 +1,46 @@
+#startButton {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+#startButton:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#startButton:pressed {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#startButton Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#roundButton {
+    -fx-background-radius: 150em;
+    -fx-min-width: 90px;
+    -fx-min-height: 90px;
+    -fx-max-height: 90px;
+    -fx-max-width: 90px;
+    -fx-padding-bottom: 100%;
+    -fx-border-radius: 50%;
+    -fx-overflow:hidden;
+    -fx-background-color: #4679BD;
+}
+

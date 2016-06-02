@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="active-configuration" value="HTTP_URL:https://courses.cs.ttu.ee/w/images/c/c2/ITI0011-2016_Checkstyle_iti0011.xml:checkstyle 20162" />
+        <entry key="check-nonjava-files" value="false" />
+        <entry key="check-test-classes" value="false" />
+        <entry key="location-0" value="CLASSPATH:/sun_checks.xml:The default Checkstyle rules" />
+        <entry key="location-1" value="LOCAL_FILE:C:/Users/Rene/Desktop/ITI0011-2016_Checkstyle_iti0011.xml:checkstyle 2016" />
+        <entry key="location-2" value="HTTP_URL:https://courses.cs.ttu.ee/w/images/c/c2/ITI0011-2016_Checkstyle_iti0011.xml:checkstyle 20162" />
+        <entry key="suppress-errors" value="true" />
+        <entry key="thirdparty-classpath" value="" />
+      </map>
+    </option>
+  </component>
+</project>

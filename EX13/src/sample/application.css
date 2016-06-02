@@ -1,0 +1,159 @@
+#layout{
+    -fx-background-image: url("cookieBackground.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
+#popUp{
+    -fx-background-color: #3498DB;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+#cookieClicker{
+    -fx-background-image: url("cookie.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 50 50;
+    -fx-background-position: center center;
+    -fx-background-color: transparent
+}
+#cursors {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+}
+
+#clickerLabel {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 12px;
+    -fx-text-fill: black;
+}
+#clickDisplay {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+}
+
+#buyCursor {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+#buyCursor:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#buyCursor:pressed {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#buyCursor Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+
+#clickButton {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+#clickButton:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#clickButton:pressed {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#clickButton Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+#infoButton {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+#infoButton:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#infoButton:pressed {
+    -fx-background-color: #3498DB;
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#infoButton Text {
+    -fx-fill: black;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+#okButton {
+     -fx-background-color:
+             linear-gradient(#f0ff35, #a9ff00),
+             radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+     -fx-background-radius: 6, 5;
+     -fx-background-insets: 0, 1;
+     -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+     -fx-text-fill: #395306;
+}
+#okButton:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+#okButton:pressed {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
